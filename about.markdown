@@ -4,17 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
 # Skills
 - Python, R, Perl
-- Machine learning, Deep learning (Generative model)
 - Linux (e.g Server maintance)
 - Cloud (AWS, Google)
 - Docker
 - Workflow language (WDL, Snakemake)
 
 - Bioinformatics
+- Machine learning, Deep learning (Generative model)
 - Data-driven drug discovery
 
 # Conference & Lecturer
@@ -31,8 +29,8 @@ This is the base Jekyll theme. You can find out more info about customizing your
 - DREAM Challenge SECOND PLACE [Link](http://www.medigatenews.com/news/1848299958)
 
 # Awards and Honors 
-- CTD-squared Pancancer Chemosensitivity DREAM Challenge Final round 2nd ranked
-- CTD-squared Pancancer Drug Activity DREAM Challenge Final round (SC1) 2nd ranked 
+- CTD-squared Pancancer Chemosensitivity DREAM Challenge Final round 2nd PLACE
+- CTD-squared Pancancer Drug Activity DREAM Challenge Final round (SC1) 2nd PLACE
 
 # Publication
 - Kim, H., Jeong, S., Wang, Y., Kim, J., Kim, T., Hong, K. (2020). Mutation pattern analysis of the public SARS-CoV-2 genome sequences.pdf Clinical Case Reports Journal
