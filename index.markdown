@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Please, check the About page
