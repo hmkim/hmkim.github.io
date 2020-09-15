@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Please, check the About page
+As a bioinformatician, I combine the fashion style of a statistician, the social networking skills of a computer scientist, and the raw storytelling abilities of a biologist.
