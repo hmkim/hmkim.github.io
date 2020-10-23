@@ -4,16 +4,18 @@ title: About
 permalink: /about/
 ---
 
-# Skills
+# Duty
+- Bioinformatics analysis
+- Data-driven drug discovery
+- Machine learning, Deep learning (Generative model)
+
+# Programming 
 - Python, R, Perl
-- Linux (e.g Server maintance)
-- Cloud (AWS, Google)
-- Docker
+- Git, Docker
 - Workflow language (WDL, Snakemake)
 
-- Bioinformatics
-- Machine learning, Deep learning (Generative model)
-- Data-driven drug discovery
+# Cloud experience
+- AWS, Google
 
 # Conference & Lecturer
 - (Lecturer) Biomedical Bigdata Research Workshop - Drug repurposing (National Research Foundation of Korea & KYUNG HEE UNIV.)
