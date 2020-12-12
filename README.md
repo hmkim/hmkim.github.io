@@ -1,2 +1,2 @@
-# Hyunmin's Log
-Log for me
+# Hyunmin's Blog
+Logs for me
