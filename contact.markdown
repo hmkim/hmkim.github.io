@@ -6,4 +6,4 @@ permalink: /contact/
 
 I'm currently working for bioinformatics @ theragen bio
 
-Send me an email: brandon.kim.hyunmin AT gmail.com
+Send me an email: hmkim AT live.co.kr
