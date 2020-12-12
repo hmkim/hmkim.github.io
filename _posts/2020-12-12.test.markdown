@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+comments: true
+date:   2020-12-12 01:05:21 +0900
+categories: diary
+---
+
+A model that is capable of answering
+
+## References
+
+[1] Danqi Chen & Scott Yih. ["ACL2020 Tutorial: Open-Domain Question Answering"](https://github.com/danqi/acl2020-openqa-tutorial) July 2020.
+
