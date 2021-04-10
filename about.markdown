@@ -27,10 +27,11 @@ permalink: /about/
 - DREAM Challenge SECOND PLACE [Link](http://www.medigatenews.com/news/1848299958)
 
 # Awards and Honors 
-- CTD-squared Pancancer Chemosensitivity DREAM Challenge Final round 2nd PLACE
-- CTD-squared Pancancer Drug Activity DREAM Challenge Final round (SC1) 2nd PLACE
+- CTD-squared Pancancer Chemosensitivity DREAM Challenge Final round 2nd PLACE 2020 [Link](https://www.synapse.org/#!Synapse:syn21763589/wiki/)
+- CTD-squared Pancancer Drug Activity DREAM Challenge Final round (SC1) 2nd PLACE 2019 [Link](https://www.synapse.org/#!Synapse:syn20968331/wiki/)
 
 # Publication
+- Douglass, E. F. et al. A Community Challenge for Pancancer Drug Mechanism of Action Inference from Perturbational Profile Data. Biorxiv 2020.12.21.423514 (2020) doi:10.1101/2020.12.21.423514.
 - Kim, H., Jeong, S., Wang, Y., Kim, J., Kim, T., Hong, K. (2020). Mutation pattern analysis of the public SARS-CoV-2 genome sequences.pdf Clinical Case Reports Journal
 - Kim, H., Cho, Y., Kim, H., Jho, S., Son, B., Son, B., Choi, J., Choi, J., Kim, S., Kim, S., Lee, B., Lee, B., Bhak, J., Jang, G. (2013). Whole genome comparison of donor and cloned dogs Scientific reports  3(1), 2998. https://dx.doi.org/10.1038/srep02998
 - Yum, S., Lee, S., Kim, H., Choi, W., Park, J., Lee, W., Kim, H., Kim, H., Bae, S., Lee, J., Moon, J., Lee, J., Lee, C., Son, B., Song, S., Ji, S., Kim, S., Jang, G. (2016). Efficient generation of transgenic cattle using the DNA transposon and their analysis by next-generation sequencing Scientific reports  6(1), 1 12. https://dx.doi.org/10.1038/srep27185
