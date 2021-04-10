@@ -5,9 +5,10 @@ permalink: /about/
 ---
 
 # Programming 
-- Python, R, Perl
+- Python, R, Perl, Bash
 - Git, Docker
-- Workflow language (WDL, Snakemake)
+- DBMS (MySQL)
+- Workflow language (WDL, Nextflow, Snakemake)
 
 # Cloud & HPC experience
 - AWS, Google
