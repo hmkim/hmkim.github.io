@@ -4,6 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-I'm currently working for bioinformatics @ theragen bio
+I'm Solutions Architect @ AWS
 
 Send me an email: hmkim AT live.co.kr
