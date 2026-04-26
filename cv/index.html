@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Hyunmin (Brandon) Kim</title>
+    <meta name="description" content="CV of Hyunmin (Brandon) Kim - Bioinformatics Engineer with 11+ years of experience in genomics, cloud computing, and digital healthcare.">
+    <style>
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+        html{-webkit-text-size-adjust:100%}
+        body{
+            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+            color:#222;
+            background:#fafafa;
+            line-height:1.6;
+            padding:0;
+        }
+        .container{
+            max-width:740px;
+            margin:0 auto;
+            padding:2.5rem 1.5rem;
+        }
+        a{color:#2a6496;text-decoration:none}
+        a:hover{text-decoration:underline}
+
+        /* Header */
+        .header{margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:2px solid #6b4f3a}
+        .header h1{font-size:1.75rem;font-weight:700;letter-spacing:-0.02em}
+        .header .links{font-size:0.85rem;margin-top:0.4rem;color:#555}
+        .header .links a{margin-right:1rem}
+        .contact-links{display:flex;flex-wrap:wrap;gap:0.5rem;margin-top:0.75rem}
+        .contact-links a,.contact-links button{
+            display:inline-block;
+            font-size:0.78rem;
+            font-family:inherit;
+            padding:0.3rem 0.7rem;
+            border:1px solid #ccc;
+            border-radius:4px;
+            background:#fff;
+            color:#444;
+            text-decoration:none;
+            cursor:pointer;
+            transition:border-color .2s,background .2s;
+        }
+        .contact-links a:hover,.contact-links button:hover{
+            border-color:#6b4f3a;
+            background:#f9f6f3;
+            text-decoration:none;
+        }
+        .back{display:inline-block;font-size:0.82rem;color:#888;margin-bottom:1rem}
+        .back:hover{color:#222}
+
+        /* Summary */
+        .summary{
+            font-size:0.95rem;
+            color:#444;
+            margin-bottom:2rem;
+            padding:1rem 1.25rem;
+            background:#fff;
+            border-radius:6px;
+            border:1px solid #e8e8e8;
+        }
+
+        /* Section */
+        section{margin-bottom:2rem}
+        section h2{
+            font-size:1.15rem;
+            font-weight:700;
+            color:#6b4f3a;
+            border-bottom:1px solid #ddd;
+            padding-bottom:0.3rem;
+            margin-bottom:1rem;
+        }
+
+        /* Experience */
+        .job{margin-bottom:1.5rem}
+        .job-header{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:0.25rem}
+        .job-company{font-weight:600;font-size:0.95rem}
+        .job-period{font-size:0.82rem;color:#888;white-space:nowrap}
+        .job-title{font-size:0.88rem;color:#555;font-style:italic;margin:0.15rem 0 0.4rem}
+        .job ul{list-style:disc;margin-left:1.2rem;font-size:0.88rem;color:#444}
+        .job li{margin-bottom:0.25rem}
+
+        /* Education */
+        .edu{margin-bottom:1rem}
+        .edu-degree{font-weight:600;font-size:0.95rem}
+        .edu-school{font-size:0.88rem;color:#555}
+        .edu-detail{font-size:0.85rem;color:#666;margin-top:0.15rem}
+
+        /* Publications */
+        .pub-list{list-style:none}
+        .pub-list li{
+            font-size:0.85rem;
+            color:#444;
+            margin-bottom:0.6rem;
+        }
+        .pub-note{
+            display:inline-block;
+            font-size:0.72rem;
+            font-weight:600;
+            color:#6b4f3a;
+            background:#f5f0eb;
+            padding:0.1rem 0.35rem;
+            border-radius:3px;
+            margin-left:0.3rem;
+            vertical-align:middle;
+            white-space:nowrap;
+        }
+
+        /* Awards & Conferences */
+        .award-list,.conf-list{list-style:none}
+        .award-list li,.conf-list li{
+            font-size:0.88rem;
+            color:#444;
+            margin-bottom:0.4rem;
+            padding-left:0.8rem;
+            position:relative;
+        }
+        .award-list li::before{content:"\25CF";position:absolute;left:0;color:#6b4f3a;font-size:0.5rem;top:0.45rem}
+        .conf-list li::before{content:"\25CF";position:absolute;left:0;color:#6b4f3a;font-size:0.5rem;top:0.45rem}
+
+        /* Press */
+        .press-list{list-style:none}
+        .press-list li{font-size:0.88rem;color:#444;margin-bottom:0.35rem}
+
+        /* Footer */
+        .cv-footer{
+            margin-top:2rem;
+            padding-top:1rem;
+            border-top:1px solid #ddd;
+            font-size:0.78rem;
+            color:#aaa;
+            text-align:center;
+        }
+
+        /* Print */
+        @media print{
+            body{background:#fff;padding:0}
+            .container{padding:0}
+            .back{display:none}
+            .contact-links{display:none}
+            section{break-inside:avoid}
+        }
+        @media(max-width:480px){
+            .container{padding:1.5rem 1rem}
+            .header h1{font-size:1.4rem}
+            .job-header{flex-direction:column}
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="/" class="back">&larr; Home</a>
+
+    <header class="header">
+        <h1>Hyunmin (Brandon) Kim</h1>
+        <div class="contact-links">
+            <a href="https://github.com/hmkim" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/hyunmin-kim-brandon/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:daycare.argyle0x@icloud.com">Email</a>
+            <a href="/BRANDON(HYUNMINKIM)_Resume.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
+            <button onclick="window.print()">Print</button>
+        </div>
+    </header>
+
+    <section>
+        <h2>About</h2>
+        <div class="summary">
+            <strong>[Pre-AWS Experience]</strong> Hyunmin has over 11 years of experience in bioinformatics and genomics. He began his career at TheragenEtex, where he conducted NGS-based genome research across diverse species and co-authored multiple publications, including studies published in Nature Communications and Nature Genetics. He also developed an automated genome analysis platform that significantly increased sales and reduced labor costs. At Genome Research Foundation, he built the Korean Genome Project website by integrating open-source applications. He later joined Seegene as a Senior Research Engineer, developing automated workflows and improving molecular diagnostics products. He co-founded a genomics startup, launching a direct-to-consumer genetic testing MVP and participating in the KIC startup accelerator. At Theragen Bio, he implemented scalable bioinformatics workflows on AWS and led a team to achieve top results in international challenges, contributing to drug discovery and COVID-19 research. He holds a B.S. and M.S. in Bioinformatics from Soongsil University.
+        </div>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">Amazon Web Services (AWS)</span>
+                <span class="job-period">Sep 2022 &ndash; Present</span>
+            </div>
+            <div class="job-title">Healthcare Solutions Architect</div>
+            <ul>
+                <li>Design and deliver cloud architecture solutions for healthcare customers.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">THERAGEN BIO CO., LTD.</span>
+                <span class="job-period">Apr 2018 &ndash; Sep 2022</span>
+            </div>
+            <div class="job-title">Senior Bioinformatics Engineer</div>
+            <ul>
+                <li>Implement the scalable and reproducible scientific workflows with AWS and workflow languages.</li>
+                <li>Published in COVID-19 research area.</li>
+                <li>Organized the team of 4 members, resulting in 2nd place on international challenges and discovered the candidate target for anticancer drug.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">Genomics Startup</span>
+                <span class="job-period">Nov 2017 &ndash; Mar 2018</span>
+            </div>
+            <div class="job-title">Director</div>
+            <ul>
+                <li>Released the genetic testing service (Minimum Viable Product).</li>
+                <li>Selected in KIC (Korean Innovation Center) startup accelerator.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">Seegene Inc.</span>
+                <span class="job-period">Sep 2016 &ndash; Oct 2017</span>
+            </div>
+            <div class="job-title">Senior Research Engineer</div>
+            <ul>
+                <li>Developed automated workflow to improve the molecular diagnostics product.</li>
+                <li>Researched thermodynamics to design the oligo design efficiently.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">TheragenEtex Bio Institute</span>
+                <span class="job-period">Aug 2014 &ndash; Sep 2016</span>
+            </div>
+            <div class="job-title">Senior Bioinformatics Engineer</div>
+            <ul>
+                <li>Performed scientific and statistical analysis of genomics data generated by various NGS platforms.</li>
+                <li>Conducted an automated genome analysis platform. (Increased sales by more than $400M, reduced labour costs by 50%)</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">Genome Research Foundation</span>
+                <span class="job-period">Jan 2014 &ndash; Aug 2014</span>
+            </div>
+            <div class="job-title">Senior Bioinformatics Engineer</div>
+            <ul>
+                <li>Constructed a Korean Genome Project website by integrating open-source interactive apps.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-company">TheragenEtex Bio Institute</span>
+                <span class="job-period">Nov 2011 &ndash; Jan 2014</span>
+            </div>
+            <div class="job-title">Bioinformatics Engineer</div>
+            <ul>
+                <li>Researched various species' genomes using NGS, resulting in four published papers.</li>
+                <li>Designed and developed tools for analysis and visualization of NGS data.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="edu">
+            <div class="edu-degree">M.S. in Bioinformatics</div>
+            <div class="edu-school">Soongsil University, Department of Bioinformatics and Life Science, Seoul</div>
+            <div class="edu-detail">Thesis: Genomic ancestry inference using machine learning</div>
+        </div>
+        <div class="edu">
+            <div class="edu-degree">B.S. in Life Science and Bioinformatics</div>
+            <div class="edu-school">Soongsil University, Department of Bioinformatics and Life Science, Seoul</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Publications</h2>
+        <ul class="pub-list">
+            <li>Douglass, E. F. et al. A community challenge for a pancancer drug mechanism of action inference from perturbational profile data. <em>Cell Reports Medicine</em> 3, 100492 (2022).</li>
+            <li>Kim, H. et al. Mutation Pattern Analysis of the Public SARS-CoV-2 Genome Sequences. <em>Clinical Case Reports Journal</em> (2020). <span class="pub-note">First Author</span></li>
+            <li>Yum, S.-Y. et al. Efficient generation of transgenic cattle using the DNA transposon and their analysis by next-generation sequencing. <em>Sci Rep</em> 6, 1&ndash;12 (2016). <span class="pub-note">Co-first Author</span></li>
+            <li>Yim, H.-S. et al. Minke whale genome and aquatic adaptation in cetaceans. <em>Nat Genet</em> 46, 88&ndash;92 (2014).</li>
+            <li>Kim, Y. et al. Variation block-based genomics method for crop plants. <em>BMC Genomics</em> 15, 477 (2014).</li>
+            <li>Kim, H.-M. et al. Whole genome comparison of donor and cloned dogs. <em>Sci Rep</em> 3, 2998 (2013). <span class="pub-note">Co-first Author</span></li>
+            <li>Cho, Y. S. et al. The tiger genome and comparative analysis with lion and snow leopard genomes. <em>Nat Commun</em> 4, 2433 (2013).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Awards</h2>
+        <ul class="award-list">
+            <li>CTD-squared Pancancer Chemosensitivity DREAM Challenge &mdash; Final round 2nd Place (2020)</li>
+            <li>CTD-squared Pancancer Drug Activity DREAM Challenge (SC1) &mdash; Final round 2nd Place (2019)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Conference &amp; Lectures</h2>
+        <ul class="conf-list">
+            <li>Jeju AI Literacy 2022 &mdash; Drug development with AI and genomics</li>
+            <li>Biztalk in Kakao Enterprise Corp. &mdash; Drug development by utilizing AI and genomics (2021)</li>
+            <li>Korea BIO 2019 &mdash; AI &amp; Big data trend in healthcare</li>
+            <li>CHORUS SEOUL 2019 &mdash; AI approach for Genome driven precision care</li>
+            <li>NRF &amp; Kyung Hee Univ. &mdash; Biomedical Bigdata Research Workshop: Drug repurposing (2019)</li>
+            <li>Korea BIO 2018 &mdash; Professional course for genomics</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Press</h2>
+        <ul class="press-list">
+            <li><a href="https://www.bioin.or.kr/board.do?cmd=view&bid=research&num=241080">Minke whale genome analysis</a></li>
+            <li><a href="https://www.hankyung.com/finance/article/2013092397156">Tiger genome analysis</a></li>
+            <li><a href="https://news.joins.com/article/12922659">Cloned dogs genome analysis</a></li>
+            <li><a href="https://m.etnews.com/20160629000466">Transgenic cow genome analysis</a></li>
+            <li><a href="http://www.medigatenews.com/news/1848299958">DREAM Challenge 2nd Place</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Languages</h2>
+        <ul class="award-list">
+            <li>Korean &mdash; Native</li>
+            <li>English &mdash; Limited working proficiency</li>
+        </ul>
+    </section>
+
+    <footer class="cv-footer">
+        &copy; 2026 Hyunmin Kim
+    </footer>
+</div>
+</body>
+</html>
