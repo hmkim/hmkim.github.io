@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyunmin Kim</title>
+    <meta name="description" content="Hyunmin (Brandon) Kim - Bioinformatics Engineer & Solutions Architect">
+    <style>
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+        html{height:100%;-webkit-text-size-adjust:100%}
+        body{
+            height:100%;
+            font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+            background:#fafafa;
+            color:#222;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            justify-content:center;
+            padding:1.5rem;
+            line-height:1.5;
+        }
+        .landing{
+            width:100%;
+            max-width:520px;
+            text-align:center;
+        }
+        .name{
+            font-size:1.75rem;
+            font-weight:700;
+            letter-spacing:-0.02em;
+            margin-bottom:0.25rem;
+        }
+        .tagline{
+            font-size:0.95rem;
+            color:#555;
+            margin-bottom:2.5rem;
+        }
+        .cards{
+            display:flex;
+            gap:1rem;
+        }
+        .card{
+            flex:1;
+            text-decoration:none;
+            color:inherit;
+            border:1px solid #ddd;
+            border-radius:10px;
+            padding:2rem 1.25rem;
+            background:#fff;
+            transition:border-color .2s,box-shadow .2s;
+        }
+        .card:hover,.card:focus-visible{
+            border-color:#888;
+            box-shadow:0 2px 12px rgba(0,0,0,.06);
+            outline:none;
+        }
+        .card-icon{
+            font-size:1.75rem;
+            margin-bottom:0.75rem;
+        }
+        .card-title{
+            font-size:1.05rem;
+            font-weight:600;
+            margin-bottom:0.35rem;
+        }
+        .card-desc{
+            font-size:0.82rem;
+            color:#666;
+        }
+        .footer-links{
+            margin-top:2.5rem;
+            font-size:0.8rem;
+            color:#999;
+        }
+        .footer-links a{
+            color:#666;
+            text-decoration:none;
+            margin:0 0.4rem;
+        }
+        .footer-links a:hover{text-decoration:underline}
+        @media(max-width:480px){
+            .cards{flex-direction:column}
+            .name{font-size:1.5rem}
+        }
+    </style>
+</head>
+<body>
+    <div class="landing">
+        <h1 class="name">Hyunmin Kim</h1>
+        <p class="tagline">Bioinformatics Engineer &amp; Solutions Architect</p>
+        <div class="cards">
+            <a href="/blog/" class="card">
+                <div class="card-icon">&#9998;</div>
+                <div class="card-title">Blog</div>
+                <div class="card-desc">Posts &amp; writings</div>
+            </a>
+            <a href="/cv/" class="card">
+                <div class="card-icon">&#128196;</div>
+                <div class="card-title">CV</div>
+                <div class="card-desc">Experience &amp; publications</div>
+            </a>
+        </div>
+        <div class="footer-links">
+            <a href="https://github.com/hmkim">GitHub</a>
+            <a href="https://www.linkedin.com/in/hyunmin-kim-brandon/">LinkedIn</a>
+            <a href="mailto:daycare.argyle0x@icloud.com">Email</a>
+        </div>
+    </div>
+</body>
+</html>
